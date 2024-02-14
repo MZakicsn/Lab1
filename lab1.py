@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
- 
-########   This script will do some addition and will print the results   #######
 
-# Two objects defined with num1 and num2
-num1 = 5
-num2 = 25
 
-# age object will add two numberical objects
-age = num1 + num2
+# Prompt the user for "Name: "
+name = input('Name: ')
 
-# To show the results of both objects and print the specifide name "isaac"
-print("Isaac is {} years old!".format(age))
-####For github testing this line added new to see changes, and push works
-###Authon NAme
-print("script written by M.Zikria")
+# Prompt the user for "Age, accept only integers"
+age = int(input('Age: '))
+
+# Print the output
+
+print( f"Hi {name}, nice to meet you. You are {age} years old.")
+
+#Author Name
+print('Ops445_lab2b by "MZikria"')
